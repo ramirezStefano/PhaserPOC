@@ -19,10 +19,10 @@ jobs:
           node-version: "20.14.0"
 
       - name: Install dependencies 📦
-        run: npm install
+        run: yarn install
 
       - name: Build ⚒
-        run: npm run build-nolog
+        run: yarn build-nolog
 
       - name: Deploy 🚀
         uses: JamesIves/github-pages-deploy-action@v4
